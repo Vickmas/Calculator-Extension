@@ -1,0 +1,20 @@
+{
+        "name": "Vickma Trial Calculator",
+        "version": "1.0",
+        "description": "A simple calculator Chrome extension made by Vickma.",
+        "manifest_version": 2 ,
+        "author": " Vickma Productions" ,
+        "permissions": ["activeTab"],
+        "browser_action": 
+        {
+                "default_popup": "index.html",
+                "default_icon": "icon.jpg",
+                "default_title": "Vickma Trial Calculator"
+        },
+        "icons":  
+        {
+                "16": "icon.jpg",
+                "48": "icon.jpg",
+                "128": "icon.jpg"
+        }           
+}
